@@ -1,0 +1,1 @@
+# terraform-aws-glue-schema-registry
