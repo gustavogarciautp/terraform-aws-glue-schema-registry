@@ -1,0 +1,31 @@
+{
+    "type": "record",
+    "name": "Product",
+    "namespace": "com.example",
+    "fields": [
+        {
+            "name": "product_name",
+            "type": {
+                "type": "string",
+                "avro.java.string": "String"
+            },
+            "doc": "Name of Product"
+        },
+        {
+            "name": "quantity",
+            "type": "int",
+            "doc": "Quantity of product"
+        },
+        {
+            "name": "price",
+            "type": "float",
+            "doc": "Price of product"
+        },
+        {
+            "name": "weight",
+            "type": "float",
+            "doc": "Weight at the time of registration in kg"
+        }
+    ],
+    "version": "1"
+}
